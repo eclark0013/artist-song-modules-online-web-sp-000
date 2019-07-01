@@ -6,20 +6,3 @@ require 'pry'
 
 require_relative '../lib/artist.rb'
 require_relative '../lib/song.rb'
-
-module Memorable
-
-  module ClassMethods
-
-
-
-
-
-  end
-
-  module InstanceMethods
-    def to_param
-      name.downcase.gsub(' ', '-')
-    end
-  end
-end
