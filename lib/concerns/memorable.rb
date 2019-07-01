@@ -1,5 +1,7 @@
 module Memorable
 
+  @@all=[]
+
   def all
     @@all
   end
