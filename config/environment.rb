@@ -7,7 +7,7 @@ require 'pry'
 require_relative '../lib/artist.rb'
 require_relative '../lib/song.rb'
 
-module Methods
+module Memorable
 
   module ClassMethods
     def self.find_by_name(name)
