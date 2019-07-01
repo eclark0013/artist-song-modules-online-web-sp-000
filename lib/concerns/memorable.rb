@@ -1,11 +1,5 @@
 module Memorable
 
-  @@all=[]
-
-  def all
-    @@all
-  end
-
   def reset_all
     self.all.clear
   end
